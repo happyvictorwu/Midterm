@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tjnu.xuan.midterm">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.Time_1"
+            android:label="Time_1"/>
+        <activity android:name=".ui.Hello_2"
+            android:label="Hello_2"/>
+        <activity android:name=".ui.RadioButton_3"
+            android:label="RadioButton_3"/>
+        <activity android:name=".ui.TextViewChange_4"
+            android:label="TextViewChange_4"/>
+        <activity android:name=".ui.Login_5"
+            android:label="Login_5"/>
+        <activity android:name=".ui.Self_Button_6"
+            android:label="Self_Button_6"/>
+        <activity android:name=".ui.ListViewText_7"
+            android:label="ListViewText_7"/>
+        <activity android:name=".ui.Picture_8"
+            android:label="Picture_8"/>
+        <activity android:name=".ui.Cartoon_9"
+            android:label="Cartoon_9"/>
+        <activity android:name=".ui.SharedPreferences_10"
+            android:label="SharedPreferences_10"></activity>
+    </application>
+
+</manifest>
