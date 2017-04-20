@@ -11,11 +11,11 @@ import com.tjnu.xuan.midterm.R;
 
 public class RadioButton_3 extends AppCompatActivity implements View.OnClickListener{
 
-    RadioGroup rg;
-    RadioButton rd_1;
-    RadioButton rd_2;
-    RadioButton rd_3;
-    TextView tv_rd;
+    private RadioGroup rg;
+    private RadioButton rd_1;
+    private RadioButton rd_2;
+    private RadioButton rd_3;
+    private TextView tv_rd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

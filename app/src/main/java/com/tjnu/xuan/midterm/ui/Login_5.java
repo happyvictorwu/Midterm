@@ -11,10 +11,10 @@ import com.tjnu.xuan.midterm.R;
 
 public class Login_5 extends AppCompatActivity implements View.OnClickListener {
 
-    TextView checkLogin;
-    EditText account;
-    EditText password;
-    Button login;
+    private TextView checkLogin;
+    private EditText account;
+    private EditText password;
+    private Button login;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

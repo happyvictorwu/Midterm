@@ -11,10 +11,10 @@ import com.tjnu.xuan.midterm.R;
 
 public class TextViewChange_4 extends AppCompatActivity implements View.OnClickListener{
 
-    TextView colorText;
-    Button blue;
-    Button yellow;
-    Button red;
+    private TextView colorText;
+    private Button blue;
+    private Button yellow;
+    private Button red;
 
 
     @Override

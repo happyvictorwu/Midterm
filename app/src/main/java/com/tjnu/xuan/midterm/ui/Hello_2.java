@@ -10,8 +10,8 @@ import com.tjnu.xuan.midterm.R;
 
 public class Hello_2 extends AppCompatActivity implements View.OnClickListener{
 
-    TextView tv_hello;
-    Button bt_hello;
+    private TextView tv_hello;
+    private Button bt_hello;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
