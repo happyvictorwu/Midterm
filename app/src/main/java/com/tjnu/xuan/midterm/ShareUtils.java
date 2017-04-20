@@ -7,7 +7,7 @@ import android.content.SharedPreferences;
  * Created by a1231 on 17/4/20.
  */
 /*
- *  项目名：  SmartButler
+ *  项目名：  Midterm
  *  包名：    com.tjnu.xuan.midterm
  *  文件名:   ShareUtils
  *  创建者:   Victor
