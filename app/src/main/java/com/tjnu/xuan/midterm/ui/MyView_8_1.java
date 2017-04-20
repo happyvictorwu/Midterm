@@ -12,8 +12,8 @@ import android.view.View;
  * Created by a1231 on 17/4/20.
  */
 
-public class MyView extends View{
-    public MyView(Context context, AttributeSet set)
+public class MyView_8_1 extends View{
+    public MyView_8_1(Context context, AttributeSet set)
     {
         super(context, set);
     }
