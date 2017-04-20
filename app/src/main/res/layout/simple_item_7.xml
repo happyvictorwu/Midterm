@@ -2,21 +2,23 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:weightSum="1">
     <!-- 定义一个ImageView，用于作为列表项的一部分。 -->
     <ImageView
         android:id="@+id/header"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingLeft="10dp" />
+        android:layout_width="99dp"
+        android:layout_height="104dp"
+        android:paddingLeft="10dp"/>
 
 
     <TextView
         android:id="@+id/names"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
         android:paddingLeft="10dp"
-        android:textColor="#f0f"
-        android:textSize="20sp" />
+        android:textColor="#020202"
+        android:gravity="center"
+        android:textSize="30sp" />
 
 </LinearLayout>
